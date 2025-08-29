@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "stat-fixer",
+	"version": "${version}",
+	"name": "Stat Fixer",
+	"description": "Fixes broken or oversized statistics packets to prevent client crashes in Minecraft 1.21.1.",
+	"authors": [
+		"TypicArtist"
+	],
+	"contact": {
+		"homepage": "https://github.com/TypicArtist/StatFixer",
+		"sources": "https://github.com/TypicArtist/StatFixer"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/stat-fixer/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"net.typicartist.StatFixer"
+		]
+	},
+	"mixins": [
+		"stat-fixer.mixins.json"
+	],
+	"accessWidener": "stat-fixer.accesswidener",
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

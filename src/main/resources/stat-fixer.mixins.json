@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "net.typicartist.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"StatisticsS2CPacketMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
