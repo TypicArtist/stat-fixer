@@ -8,8 +8,8 @@
 		"TypicArtist"
 	],
 	"contact": {
-		"homepage": "https://github.com/TypicArtist/StatFixer",
-		"sources": "https://github.com/TypicArtist/StatFixer"
+		"homepage": "https://github.com/TypicArtist/stat-fixer",
+		"sources": "https://github.com/TypicArtist/stat-fixer"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/stat-fixer/icon.png",
